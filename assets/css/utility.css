@@ -1,0 +1,55 @@
+:root {
+    --color-primary: #f6d200;
+    --color-grey: #ededed;
+    --color-dark: #000;
+    --color-white: #fff;
+    --color-green : green;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color : var(--color-white);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+.d-flex{
+    display  : flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.flex-grow-1{
+    flex-grow : 1;
+}
+
+.sectionHeading{
+    color: var(--color-dark);
+    margin: 30px 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size : 32px;
+    font-weight: bold;
+}
+

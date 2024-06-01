@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex layout</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="path/to/lightbox.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/utility.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="outer-wraper">
+        <header class="header d-flex flex-direction-column justify-content-space-between">
+    <div class="site-info d-flex flex-direction-column justify-content-center align-items-center flex-grow-1">
+                <h1 class="text-uppercase">The K-pop Home</h1>
+                <p>set back | enjoy | watch</p>
+            </div>
+            <nav class="navbar">
+                <ul class="d-flex flex-direction-column">
+                    <li><a href="javascript:;">Watch</a></li>
+                    <li><a href="javascript:;">Download</a></li>
+                    <li><a href="javascript:;">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+  
+    <div class="content-area d-flex flex-direction-column">
+        <main class="mainContent-area">
+            <section class="posts d-flex flex-direction-column">
+                <article class="articlePost one-half">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://kpopping.com/documents/e0/1/275/230604-SBS-Twitter-Update-With-BOYNEXTDOOR-documents-1.webp?v=07878" 
+                            alt="">
+                            <figcaption>
+                                <h2>boynextdoor</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                    deleniti voluptatem laudantium tempore rem sequi </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article class="articlePost one-half">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://www.allkpop.com/upload/2022/07/content/310123/1659244995-txt-good-boy-gone-bad-group-concept-photo-2.jpg" 
+                            alt="">
+                            <figcaption>
+                                <h2>tomorrow x together[txt]</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                     deleniti voluptatem laudantium tempore rem sequi
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article class="articlePost">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://ibighit.com/bts/images/profile/proof/member/bts-m.jpg" 
+                            alt="">
+                            <figcaption>
+                                <h2>bangtan sonyeondan[bts]</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                    deleniti voluptatem laudantium tempore rem sequi </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article class="articlePost one-third">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/08/01220439/Most-watched-Blackpink-videos-2-1600x900.jpg" 
+                            alt="">
+                            <figcaption>
+                                <h2>blackpink</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                     deleniti voluptatem laudantium tempore rem sequi
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article class="articlePost one-third">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb7Wcc2xpNDFh9Jcr-9geSLICFBPZA4fyRyjYC5YSM2g&s" 
+                            alt="">
+                            <figcaption>
+                                <h2>seventen</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                     deleniti voluptatem laudantium tempore rem sequi
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+
+                <article class="articlePost one-third">
+                    <a href="javascript:;">
+                        <figure class="d-flex flex-direction-column">
+                            <img src="https://dbkpop.com/wp-content/uploads/2023/03/xin_debut_concept_all_group.jpg" 
+                            alt="">
+                            <figcaption>
+                                <h2>x:in</h2>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet fugiat,
+                                     deleniti voluptatem laudantium tempore rem sequi
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </article>
+                
+            </section>
+
+            <section class="watch-now">
+                <h2 class="sectionHeading">
+                    watch today
+                </h2>
+                <figure class="watch-card d-flex flex-direction-column">
+                    <div class="watch-img">
+                        <img src="https://pictures.betaseries.com/fonds/poster/c7f5afb4a87bf909d8b0e5c7522b6bf9.jpg" 
+                        alt="" title="">
+                    </div>
+                    <figcaption class="watch-content">
+                        <h3>run BTS</h3>
+                        <p>
+                            <span>2017</span>
+                            <span>45 min</span>
+                            <span>5M</span>
+                            <span>comdey</span>
+                            <span>1M</span>
+                        </p>
+                        <p class="overview">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed consectetur assumenda eius
+                             ratione labore, a ut laboriosam totam, obcaecati accusamus blanditiis soluta praesentium fuga id nostrum,
+                              est corporis voluptas.
+                        </p>
+                        <a target="_blank"  href="https://www.youtube.com/watch?v=hR0_nWQSFN4&list=PL5hrGMysD_GsFYwSFDWDyUApfpHEwTDhE&pp=iAQB">
+                            See More...</a>
+                    </figcaption>
+                </figure>
+
+                <figure class="watch-card d-flex flex-direction-column order">
+                    <div class="watch-img">
+                        <img src="https://item-shopping.c.yimg.jp/i/n/bigstar-shop_txt-b-001" 
+                        alt="" title="">
+                    </div>
+                    <figcaption class="watch-content">
+                        <h3>to do x TXT</h3>
+                        <p>
+                            <span>2022</span>
+                            <span>30 min</span>
+                            <span>2M</span>
+                            <span>comdey</span>
+                            <span>500K</span>
+                        </p>
+                        <p class="overview">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sed consectetur assumenda eius
+                             ratione labore, a ut laboriosam totam, obcaecati accusamus blanditiis soluta praesentium fuga id nostrum,
+                              est corporis voluptas.
+                        </p>
+                        <a target="_blank"  href="https://www.youtube.com/watch?v=YV9Z-_w4Fpc&list=PLcZxoPUYVQX2vpHvmxzoSiffZh5Xw3TGe&pp=iAQB">
+                            See More...</a>
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section class="download-now">
+                <h2 class="sectionHeading">
+                    download now
+                </h2>
+                <div class="download-card">
+                    <div class="download-img">
+                        <img src="https://deadline.com/wp-content/uploads/2021/11/HYBE-asset.jpeg" 
+                        alt="" title="">
+                    </div>
+                    <div class="download-content">
+                        <a href="javascript:;" class="download-link"
+                        href="">Download<i class="fa-solid fa-cloud-arrow-down"></i></a>
+                    <div class="download-info">
+                        <div class="download-genres">
+                            <h4>genre : </h4>
+                            <p>thriller | action | mystery </p>
+                        </div>
+                        <div class="download-cast">
+                            <h4>cast : </h4>
+                            <p> bts members | txt members | enhypen members </p>
+                        </div>
+                        <div class="download-logo d-flex">
+                            <h4>logo : </h4>
+                            <img src="https://www.shutterstock.com/image-vector/bts-logo-bright-colors-division-600nw-2156401461.jpg" 
+                            alt="" title="">
+                            <img src="https://i.pinimg.com/736x/dc/f8/bf/dcf8bf6a15baaa11cd85e20f06318397.jpg" 
+                            alt="" title="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL-HjSwDpjqqQknENPSJNrsA_ui8Iw7n5aHA&s" 
+                            alt="" title="">
+                        </div>
+                    </div>
+                    <div class="download-rating">
+                        <p>watch at Webtoon</p>
+                        <p>vol .1 [comic]</p>
+                    </div>
+                </div>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2 class="sectionHeading">
+                    Gallery
+                </h2>
+                <div class="gallery-img">
+                    <div class="g-img">
+                        <a href="./assets/images/blackpink.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images/blackpink.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/dark moon.webp" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images/dark moon.webp"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/girl grp.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images/girl grp.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/7 fates chakho.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images/7 fates chakho.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/red velvet.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images/red velvet.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/begins-youth.avif" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images//begins-youth.avif"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/the star seeker.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images//the star seeker.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/proof-bts.jpg" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images//proof-bts.jpg"
+                             alt="" title="">
+                        </a>
+                    </div>
+                    <div class="g-img">
+                        <a href="./assets/images/txt.webp" 
+                        data-lightbox="gallery" data-title="Image">
+                            <img src="./assets/images//txt.webp"
+                             alt="" title="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <aside class="sideBar-section">
+            <div class="sideBar-card">
+                <h3 class="sidebarHeading">
+                 Top Groups : 
+                </h3>
+                <ul>
+                    <li>BTS</li>
+                    <li>TXT</li>
+                    <li>Stray Kids</li>
+                    <li>Twice</li>
+                    <li>ITZY</li>
+                    <li>Blackpink</li>
+                    <li>Many more....</li>
+                </ul>
+        </div>
+        <div class="sideBar-card">
+            <h3 class="sidebarHeading">
+             Top Albums : 
+            </h3>
+            <ul>
+                <li>Map of the soul:7</li>
+                <li>The Name Chapter:Temptation</li>
+                <li>5-star</li>
+                <li>Fancy you</li>
+                <li>Carzy in love</li>
+                <li>Born pink</li>
+                <li>Many more....</li>
+            </ul>
+    </div>
+        
+        </aside>
+    </div>
+    <footer class="footer">
+        All Rights are Reserved COPYRIGHT 2024
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js" integrity="sha512-U9dKDqsXAE11UA9kZ0XKFyZ2gQCj+3AwZdBMni7yXSvWqLFEj8C1s7wRmWl9iyij8d5zb4wm56j4z/JVEwS77g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="path/to/lightbox.js"></script>
+</body>
+</html>
+
+
